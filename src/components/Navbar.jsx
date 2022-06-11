@@ -81,11 +81,17 @@ const Navbar = () => {
             sx={{
               height: "32px",
               width: "32px",
+              cursor: "pointer",
             }}
             src="https://img.favpng.com/2/16/2/web-development-computer-icons-avatar-business-user-png-favpng-TuvxvfDtZq4sFC6US4DHKgeiy.jpg"
           />
         </IconsGroup>
-        <UserBox onClick={() => setOpen(true)}>
+        <UserBox
+          onClick={() => setOpen(true)}
+          sx={{
+            cursor: "pointer",
+          }}
+        >
           <Avatar
             sx={{
               height: "32px",
